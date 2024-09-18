@@ -15,15 +15,6 @@ class Solution(object):
             left = left + 1 # increment our LHS pointer
             right = right - 1 # decrement our RHS pointer
 
-# Create an instance of the Solution class
-solution = Solution()
 
-# Test case 1: Reverse a string (list of characters)
-test_case = ['h', 'e', 'l', 'l', 'o']
-print("Original list:", test_case)
-
-# Call the reverseString method
-solution.reverseString(test_case)
-
-# Print the result to verify if it's reversed
-print("Reversed list:", test_case)
+# Another way of solving this in python is using string slicing
+# return s[::-1]
